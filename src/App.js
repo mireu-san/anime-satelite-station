@@ -49,7 +49,7 @@ function App() {
         <form className="searchBar">
           <input
             type="search"
-            placeholder="계속하려면 천천히 입력해보세요."
+            placeholder="계속하려면 다시 입력해보세요."
             onChange={(e) => setSearch(e.target.value)}
           />
         </form>
