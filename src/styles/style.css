@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h1 {
+    font-weight:bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBDED8;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: white;
+    z-index: 1;
+}
+
+
+
+.header .searchBar input {
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    font-size: 1.2rem;
+    padding: 0 -1rem;
+}
+
+/* container = AnimeList.js */
+.container {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+}
+
+.animeInfo {
+    width: 320px;
+    height: 100%;
+    background-color: #FBDED8;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.anime-row {
+    display: flex;
+    flex-direction: column;
+
+}
+.anime-row .row{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.anime-row .text-heading {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 230px;
+    height: 300px;
+    padding: 0 0 1rem 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+}
+
+.anime-content {
+    padding: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.anime-content img {
+    width: 200px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    padding: 0.5rem;
+    background-color: rgba(181, 181, 181, 0.819);
+    color: white;
+    text-align: justify;
+    opacity: 0;
+}
+
+.animeList-info:hover .overlay{
+    opacity: 1;
+    height: 95%;
+}
+
+.overlay .synopsis {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.mylist{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    padding: 0.5rem;
+    background-color: rgb(211,177,145);
+    font-size: 1rem;
+    font-weight: bold;
+}
