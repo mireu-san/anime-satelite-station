@@ -1,5 +1,4 @@
 {
-  "homepage": "https:///mireu-san.github.io/anime-satelite-station",
   "name": "second-jikan-anime-project",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build": "webpack --mode production",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
