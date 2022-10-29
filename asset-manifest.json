@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/anime-satelite-station/static/css/main.b9c31726.css",
-    "main.js": "/anime-satelite-station/static/js/main.ae7e5937.js",
-    "index.html": "/anime-satelite-station/index.html",
-    "main.b9c31726.css.map": "/anime-satelite-station/static/css/main.b9c31726.css.map",
-    "main.ae7e5937.js.map": "/anime-satelite-station/static/js/main.ae7e5937.js.map"
+    "main.css": "/static/css/main.b9c31726.css",
+    "main.js": "/static/js/main.804863ce.js",
+    "index.html": "/index.html",
+    "main.b9c31726.css.map": "/static/css/main.b9c31726.css.map",
+    "main.804863ce.js.map": "/static/js/main.804863ce.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c31726.css",
-    "static/js/main.ae7e5937.js"
+    "static/js/main.804863ce.js"
   ]
 }
