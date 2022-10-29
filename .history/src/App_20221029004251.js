@@ -38,12 +38,12 @@ function App() {
   };
   useEffect(() => {
     getData();
-  });
+  }, [search]);
 
   return (
     <>
       <div className="header">
-        <a href="/">
+        <a href="">
           <h1>Anime Satelite Station</h1>
         </a>
         <form className="searchBar">
