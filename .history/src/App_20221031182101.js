@@ -38,7 +38,7 @@ function App() {
   };
   useEffect(() => {
     getData();
-  }, [search]);
+  }[search]);
 
   return (
     <>
